@@ -23,3 +23,4 @@ Contents
 
    usage
    api
+   ESP32-S3
