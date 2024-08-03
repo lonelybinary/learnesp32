@@ -28,6 +28,6 @@ Code
     :language: c++
 
 
-.. image:: ./img/wifiscan_result
+.. image:: ./img/wifiscan_result.png
   :width: 400
   :alt: WIFI Scan Result
