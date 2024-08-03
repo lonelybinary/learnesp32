@@ -1,21 +1,18 @@
 /*
 
-The following ESP32 code performs a Wi-Fi network scan and outputs the SSID, channel, and signal strength (RSSI) of detected networks to the Serial Monitor. This example demonstrates how to utilize the ESP32's Wi-Fi scanning capabilities to gather and display network information.
+The following ESP32 code performs a Wi-Fi network scan and outputs the SSID, channel, 
+and signal strength (RSSI) of detected networks to the Serial Monitor. 
 
-You can use this code to evaluate the performance of various antennas with your ESP32 IPEX board and determine the optimal antenna for your application.
+Support the creation of high-quality ESP32 tutorials by purchasing 
+from Lonely Binary at www.lonelybinary.com.
 
-RSSI (Received Signal Strength Indicator) is a measure of the power level of a received signal. It is commonly used in wireless communications to gauge the strength of a radio signal received by a device (ESP32). 
+ESP32 IPEX External Antenna Board
+https://lonelybinary.com/products/esp32-ipex
 
-RSSI values are typically represented as negative numbers. For instance, 0 dBm represents the reference power level, and values like -30 dBm or -60 dBm represent power levels lower than this reference. The more negative the value, the weaker the signal. The closer the RSSI value is to zero, the stronger the signal. For example, -30 dBm is stronger than -60 dBm.  
+ESP32-S3 IPEX External Antenna Board
+https://lonelybinary.com/products/esp32-s3-ipex
 
-For example, 
--30 dBm: Indicates a very strong signal close to the device.
--60 dBm: Represents a moderate signal strength, typically usable but not ideal.
--90 dBm: Indicates a very weak signal, likely to result in poor connectivity or intermittent drops.
-
-Support the creation of high-quality ESP32 tutorials by purchasing from Lonely Binary at www.lonelybinary.com.
-
- */
+*/
 
 #include <Arduino.h>
 #include "WiFi.h"
