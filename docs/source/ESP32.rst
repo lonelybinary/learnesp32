@@ -16,9 +16,9 @@ RSSI (Received Signal Strength Indicator) is a measure of the power level of a r
 RSSI values are typically represented as negative numbers. For instance, 0 dBm represents the reference power level, and values like -30 dBm or -60 dBm represent power levels lower than this reference. The more negative the value, the weaker the signal. The closer the RSSI value is to zero, the stronger the signal. For example, -30 dBm is stronger than -60 dBm.  
 
 For example, 
--30 dBm: Indicates a very strong signal close to the device.
--60 dBm: Represents a moderate signal strength, typically usable but not ideal.
--90 dBm: Indicates a very weak signal, likely to result in poor connectivity or intermittent drops.
+- -30dBm: Indicates a very strong signal close to the device.
+- -60dBm: Represents a moderate signal strength, typically usable but not ideal.
+- -90dBm: Indicates a very weak signal, likely to result in poor connectivity or intermittent drops.
 
 Code
 ----
@@ -26,3 +26,8 @@ Code
 .. literalinclude:: ./code/ESP32/src/main-wifi-scan.cpp
     :linenos:
     :language: c++
+
+
+.. image:: ./img/wifiscan_result
+  :width: 400
+  :alt: WIFI Scan Result

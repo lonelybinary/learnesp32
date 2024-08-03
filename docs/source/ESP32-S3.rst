@@ -14,7 +14,7 @@ By default, serial output (serial.println) is routed through the UART port. To c
 
 Once enabled, Serial.print commands will send output through the USB port instead of the UART port.
 
-.. image:: img/usbcdc_serial.png
+.. image:: ./img/usbcdc_serial.png
   :width: 400
   :alt: USB CDC as Serial Output
 
