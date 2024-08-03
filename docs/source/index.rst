@@ -20,7 +20,8 @@ Contents
 --------
 
 .. toctree::
-
+   
+   ESP32
+   ESP32-S3
    usage
    api
-   ESP32-S3

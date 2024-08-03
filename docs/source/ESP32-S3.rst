@@ -18,6 +18,8 @@ Once enabled, Serial.print commands will send output through the USB port instea
   :width: 400
   :alt: USB CDC as Serial Output
 
+
+
 .. code-block:: console
 
    (.venv) $ pip install lumache
