@@ -28,6 +28,7 @@ Code
     :language: c++
 
 
+Serial Montior Output: 
 .. image:: ./img/wifiscan_result.png
   :width: 400
   :alt: WIFI Scan Result

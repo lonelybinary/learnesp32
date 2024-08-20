@@ -20,3 +20,4 @@ Contents
 
    ESP32
    ESP32-S3
+   EINK
